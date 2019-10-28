@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue/vue.min.js"></script>
+</head>
+<body>
+<!--实现再body中显示名称-->
+<div id="app">
+    {{name}}
+</div>
+
+</body>
+<script>
+    var VM = new Vue({
+        el:'#app',
+        data:{
+            name:'传智播客'
+        }
+    })
+</script>
+</html>
